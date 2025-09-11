@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Solay Beauty Design System - Elegant cosmetics brand */
+
+@layer base {
+  :root {
+    /* Brand Colors - Elegant pastels and rose gold */
+    --background: 330 100% 97%; /* Rose clair #FFF6F8 */
+    --foreground: 30 13% 11%; /* Texte noir #1E1B18 */
+
+    --card: 0 0% 100%; /* Blanc pur */
+    --card-foreground: 30 13% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 13% 11%;
+
+    --primary: 342 61% 91%; /* Rose poudré #FADDE1 */
+    --primary-foreground: 30 13% 11%;
+
+    --secondary: 36 49% 64%; /* Doré rose #D4A373 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 342 61% 95%;
+    --muted-foreground: 30 13% 45%;
+
+    --accent: 36 49% 64%; /* Rose doré pour accents */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 342 61% 91%;
+    --input: 342 40% 94%;
+    --ring: 36 49% 64%;
+
+    --radius: 1rem; /* Boutons très arrondis */
+
+    /* Custom Solay Beauty tokens */
+    --rose-powder: 342 61% 91%; /* Rose poudré principal */
+    --rose-light: 330 100% 97%; /* Rose très clair */
+    --rose-gold: 36 49% 64%; /* Doré rose */
+    --cream: 0 0% 100%; /* Blanc crème */
+    --charcoal: 30 13% 11%; /* Noir élégant */
+
+    /* Gradients luxueux */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--rose-light)), hsl(var(--rose-powder)));
+    --gradient-button: linear-gradient(135deg, hsl(var(--rose-powder)), hsl(var(--rose-gold)));
+    --gradient-accent: linear-gradient(45deg, hsl(var(--rose-gold)), hsl(var(--rose-powder)));
+
+    /* Shadows élégantes */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--rose-powder) / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--rose-gold) / 0.2);
+    --shadow-button: 0 4px 15px -3px hsl(var(--rose-powder) / 0.4);
+
+    /* Animations douces */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 30 13% 11%;
+    --foreground: 330 100% 97%;
+    --card: 30 13% 13%;
+    --card-foreground: 330 100% 97%;
+    --popover: 30 13% 13%;
+    --popover-foreground: 330 100% 97%;
+    --primary: 342 61% 91%;
+    --primary-foreground: 30 13% 11%;
+    --secondary: 36 49% 64%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 30 13% 20%;
+    --muted-foreground: 342 30% 70%;
+    --accent: 36 49% 64%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 13% 20%;
+    --input: 30 13% 20%;
+    --ring: 36 49% 64%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+
+  /* Typography système */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+
+  /* Scrollbar personnalisée */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-rose-light;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-rose-powder rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-rose-gold;
+  }
+}
