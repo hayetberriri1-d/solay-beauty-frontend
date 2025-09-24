@@ -14,7 +14,7 @@ const Footer = () => {
                 Solay Beauty
               </h3>
               <p className="text-cream/80 font-inter leading-relaxed">
-                Sublimer la beauté naturelle avec des cosmétiques et soins premium. Rayonnez comme jamais auparavant.
+                Sublimer la beauté naturelle avec des cosmétiques . Rayonnez comme jamais auparavant.
               </p>
             </div>
             

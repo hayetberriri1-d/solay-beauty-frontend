@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-cosmetics.jpg";
+import heroImage from "@/assets/hero-cosmetics2.jpg";
+
 
 const HeroSection = () => {
   return (
@@ -14,7 +15,7 @@ const HeroSection = () => {
                 <span className="block text-rose-gold">beauté naturelle</span>
               </h1>
               <p className="text-lg md:text-xl text-charcoal/80 font-inter max-w-lg mx-auto lg:mx-0">
-                Découvrez des cosmétiques de luxe qui révèlent votre beauté naturelle avec notre collection premium de maquillage et soins.
+                Découvrez des cosmétiques de luxe qui révèlent votre beauté naturelle avec notre collection premium de maquillage .
               </p>
             </div>
             
@@ -49,7 +50,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-elegant">
               <img 
-                src={heroImage} 
+                src={`${heroImage}?v=2`} 
                 alt="Luxury cosmetics collection featuring elegant pink lipsticks and rose gold products"
                 className="w-full h-auto object-cover"
               />

@@ -3,6 +3,7 @@ import lipstickImage from "@/assets/lipstick-category.jpg";
 import foundationImage from "@/assets/foundation-category.jpg";
 import skincareImage from "@/assets/skincare-category.jpg";
 
+
 const categories = [
   {
     id: 1,

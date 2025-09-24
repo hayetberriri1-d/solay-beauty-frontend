@@ -32,16 +32,7 @@ const featuredProducts = [
     badge: "Édition Limitée",
     color: "Or Rosé"
   },
-  {
-    id: 4,
-    name: "Masque Argile Rose",
-    price: "35€",
-    originalPrice: "45€",
-    rating: 4.7,
-    reviews: 156,
-    badge: "Promo",
-    color: "Rose Tendre"
-  }
+  
 ];
 
 const FeaturedProducts = () => {
