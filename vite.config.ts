@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/solay-beauty-frontend/", // <-- ajouter cette ligne
   server: {
     host: "::",
     port: 8080,
