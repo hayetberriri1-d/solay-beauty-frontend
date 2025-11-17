@@ -1,16 +1,7 @@
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [
-  {
-    id: 1,
-    name: "Emma Richardson",
-    location: "Paris, France",
-    rating: 5,
-    text: "Solay Beauty a complètement transformé ma routine de soins. La qualité est exceptionnelle et ma peau n'a jamais été aussi belle !",
-    product: "Sérum Éclat Élixir",
-    initials: "ER",
-    bgColor: "bg-rose-powder"
-  },
+  
   {
     id: 2,
     name: "Sofia Martinez",

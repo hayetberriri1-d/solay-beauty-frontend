@@ -20,12 +20,13 @@ const categories = [
     gradient: "from-rose-powder to-rose-gold"
   },
   {
-    id: 3,
-    name: "Soins Visage",
-    description: "Nourrir, protéger, sublimer",
-    image: skincareImage,
-    gradient: "from-rose-gold to-rose-light"
-  }
+  id: 3,
+  name: "Fard à joue",
+  description: "Illumine, colore, sublime",
+  image: skincareImage,
+  gradient: "from-rose-gold to-rose-light"
+}
+
 ];
 
 const CategoriesSection = () => {
